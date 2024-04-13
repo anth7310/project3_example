@@ -9,6 +9,7 @@
 |   └── index.html              # html template for d3 visualizations
 ├── utils  
 |   └── database_helper.py      # helper util for reading database
+|                               #   and creates .sqlite database
 ├── app.py                      # flask app to host data endpoints and server
 └── README.md
 ```
