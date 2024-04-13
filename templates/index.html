@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
+<body>
+    <!-- Create a div where the graph will take place -->
+    <h3>Data Loded from http://localhost:5000/country_mock</h1>
+    <div id="my_dataviz1"></div>
+
+    <h3>Data Loded from http://localhost:5000/country_db</h1>
+    <div id="my_dataviz2"></div>
+</body>
+<script src="{{url_for('static', filename='logic_mock.js')}}"></script>
+<script src="{{url_for('static', filename='logic_db.js')}}"></script>
+</html>
