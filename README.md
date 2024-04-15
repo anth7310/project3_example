@@ -12,6 +12,13 @@
 |                               #   and creates .sqlite database
 ├── app.py                      # flask app to host data endpoints and server
 └── README.md
+├── requirements.txt            # list of libraries to install for app to work
+```
+
+
+To install all packages within `requirements.txt` run the following
+```bash
+pip install -r requirements.txt
 ```
 
 ![image](image.png)
